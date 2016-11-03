@@ -20,7 +20,7 @@ class BasketTests(unittest.TestCase):
 
     # test if variable contents is a list
     def test_contents_are_list(self):
-        self.assertIsInstance(self.keijon_ostoskori.contents, list, "variable content is not a list")
+        self.assertIsInstance(self.keijon_ostoskori.contents, str, "variable content is not a list")
 
     # test if variable price is a number
     def test_price_is_number(self):
